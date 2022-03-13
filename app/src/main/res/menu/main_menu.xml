@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/favourites"
+        android:icon="@drawable/ic_baseline_star_24"
+        app:showAsAction="always"
+        android:title="favourites">
+
+    </item>
+
+    <item
+        android:id="@+id/action_pref"
+        android:title="@string/preferences">
+    </item>
+
+    <item
+        android:id="@+id/action_Profile"
+        android:title="@string/profile">
+    </item>
+
+    <item
+        android:id="@+id/login"
+        android:title="@string/login">
+    </item>
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="@string/logOff">
+
+    </item>
+
+    <item
+        android:id="@+id/notifications"
+        android:title="@string/notification_test">
+    </item>
+
+</menu>
